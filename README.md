@@ -11,3 +11,7 @@ This creates a customer attribute called `allowed_pay_through_checkmo`, which be
 When enabled the `checkmo` payment method is filtered out from customers who are not allowed to checkout with `checkmo`.
 
 When the checkmo payment isn't enabled this module doesn't do anything.
+
+### Todo
+- Add more methods to be filtered perhaps through multi select.
+- Add configuration to allow certain methods to be filtered.
