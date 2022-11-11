@@ -1,0 +1,22 @@
+{
+  "name": "elgentos/magento2-customer-specific-checkmo",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "^103.0",
+    "magento/module-customer": "^103.0",
+    "magento/module-offline-payments": "^100.4"
+  },
+  "license": [
+    "Proprietary"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Elgentos\\CustomerSpecificCheckMo\\": ""
+    }
+  }
+}
